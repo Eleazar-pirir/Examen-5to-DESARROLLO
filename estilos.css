@@ -1,3 +1,27 @@
 body{
-    background: linear-gradient(red,blue,purple);
+    background: linear-gradient( to left,  red,blue,purple);
 }
+
+
+
+.contenedor{
+    column-height: 1fr 1fr;
+    display: flex;
+    text-align: center;
+    background-color: aqua;
+    height: 500px;
+    width: 100%;
+    margin: 10px;
+
+}
+
+
+.compus{ 
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    height:auto ;
+    border-radius: 20px;
+}
+
+
